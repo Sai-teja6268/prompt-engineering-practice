@@ -38,6 +38,7 @@ candidate_request: {candidate_request}
 
 """
 response = get_completion(prompt)
+
 print("Prompt:")
 print("-" * 50)
 print(prompt)
